@@ -60,7 +60,7 @@
         "https://lms.ynu.ac.jp/lms/dissEvll/doPreKyozai;*",
         "https://lms.ynu.ac.jp/lms/rptsRptc/doTempSaveReport;*",
         "https://lms.ynu.ac.jp/lms/quetResl/doReturnAction;*",
-        "https://lms.ynu.ac.jp/lms/oflsOflr/doRtnKyozaiItiran;*"
+        "https://lms.ynu.ac.jp/lms/rptsRstl/doReturnToList;*"
       ],
       "css": ["css/linkKougi.css"],
       "js": ["js/main.js"]
@@ -117,7 +117,7 @@
         "https://lms.ynu.ac.jp/lms/corsCosl/doJisshiJyotaiLink;*",
         "https://lms.ynu.ac.jp/lms/corsCosl/doKyozaiTitleLink;*",
         "https://lms.ynu.ac.jp/lms/tstsQuee/doLimit;*",
-        "https://lms.ynu.ac.jp/lms/rptsHisr/doIndex;"
+        "https://lms.ynu.ac.jp/lms/rptsRstl/doIndex;*"
       ],
       "css": ["css/linkKyozaiTitle.css"],
       "js": ["js/main.js"]
