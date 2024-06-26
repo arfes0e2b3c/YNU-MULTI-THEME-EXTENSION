@@ -1,7 +1,9 @@
 {
+  "update_url": "https://clients2.google.com/service/update2/crx",
+
   "name": "LMS_MULTI_THEME_EXTENSION",
   "manifest_version": 3,
-  "version": "1.1.12",
+  "version": "1.1.15",
   "description": "横浜国立大学の授業支援システムの配色を自由に設定することができる拡張機能です。",
   "host_permissions": ["https://lms.ynu.ac.jp/lms/homeHoml/"],
   "content_scripts": [
@@ -57,10 +59,11 @@
         "https://lms.ynu.ac.jp/lms/quetResl/doReturnAction;*",
         "https://lms.ynu.ac.jp/lms/dissEvll/doPreKyozai;*",
         "https://lms.ynu.ac.jp/lms/rptsRptc/doTempSaveReport;*",
-        "https://lms.ynu.ac.jp/lms/quetResl/doReturnAction;*"
+        "https://lms.ynu.ac.jp/lms/quetResl/doReturnAction;*",
+        "https://lms.ynu.ac.jp/lms/oflsOflr/doRtnKyozaiItiran;*"
       ],
       "css": ["css/linkKougi.css"],
-      "js": ["js/jquery-3.4.1.min.js", "js/main.js", "js/doLinkKougi.js"]
+      "js": ["js/main.js"]
     },
     {
       "matches": [
@@ -112,7 +115,9 @@
         "https://lms.ynu.ac.jp/lms/tstsQuee/doLimit;*",
         "https://lms.ynu.ac.jp/lms/corsComl/doJisshiJyotaiLink;*",
         "https://lms.ynu.ac.jp/lms/corsCosl/doJisshiJyotaiLink;*",
-        "https://lms.ynu.ac.jp/lms/corsCosl/doKyozaiTitleLink;*"
+        "https://lms.ynu.ac.jp/lms/corsCosl/doKyozaiTitleLink;*",
+        "https://lms.ynu.ac.jp/lms/tstsQuee/doLimit;*",
+        "https://lms.ynu.ac.jp/lms/rptsHisr/doIndex;"
       ],
       "css": ["css/linkKyozaiTitle.css"],
       "js": ["js/main.js"]

@@ -163,7 +163,8 @@ body * {
 #test,
 #info,
 #dis,
-#tpic {
+#tpic,
+#off {
   display: none !important;
 }
 #cs_fullHeadVox {
@@ -202,7 +203,7 @@ div.cs_frVoxPage li#prev {
   background-image: none !important;
 }
 .cs_table2 img {
-  display: none !important;
+  /* display: none !important; */
 }
 
 /* themeModal */
